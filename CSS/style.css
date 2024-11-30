@@ -1,4 +1,4 @@
-/* CSS RESET */
+ /* CSS RESET */
 * {
     margin: 0px;
     padding: 0px;
@@ -195,9 +195,14 @@
 }
 
 /* CONTACT SECTION */
-/* #contact{
+#contact{
     position:relative;
-} */
+}
+
+#contact{
+    height: 26rem;
+    margin-top: 14rem;
+}
 #contact::before{
     content:"";
     position:absolute;
@@ -214,7 +219,7 @@
     padding-bottom: -4px;
 }
 #contact-box input,#contact-box textarea{
-    width:100;
+    width:35rem;
     padding:0.3rem;
     margin:0px;
 
